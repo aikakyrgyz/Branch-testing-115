@@ -220,8 +220,8 @@ class TriangleTyperTest {
 							() -> { TriangleTyper.typer(t);}); //for some reason stays yellow*
 		//Assertions.assertEquals(null, e.getMessage());	
 	}
- //or 
-/*	
+// or 
+	/*
 	@Test
 	void testTyperthatthrowsExceptionS2()
 	{
@@ -238,6 +238,7 @@ class TriangleTyperTest {
 		Assertions.assertEquals(1, was_thrown);	
 	}
 	*/
+	
 	@Test
 	void testsetTriangleTyperExceptionCaught()	{
 		Triangle test = mock(Triangle.class);
@@ -254,7 +255,7 @@ class TriangleTyperTest {
 	}
 	
 	@Test 
-	void testTrinagleTyperClass() {
+	void testTriangleTyperClass() {
 		TriangleTyper t = new TriangleTyper();
 	}
 }
